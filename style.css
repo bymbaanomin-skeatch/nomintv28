@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #1b1b1b;
+  color: #eee;
+  font-family: monospace;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  color: #f06292;
+  margin-bottom: 30px;
+}
+
+.chat-window {
+  background: #2b2b2b;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: left;
+}
+
+.bubble {
+  max-width: 90%;
+  margin: 10px 0;
+  padding: 12px 15px;
+  border-radius: 12px;
+  line-height: 1.5em;
+  font-size: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.nomi {
+  background-color: #444;
+  text-align: left;
+}
+
+.byambaa {
+  background-color: #607d8b;
+  text-align: right;
+  margin-left: auto;
+}
+
+.button-box {
+  margin: 20px 0;
+}
+
+button {
+  background: #f06292;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ec407a;
+}
+
+.music {
+  margin-top: 30px;
+}
